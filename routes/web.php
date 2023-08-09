@@ -22,4 +22,4 @@ Route::get('upload', function (){
     return view('upload');
 });
 
-Route::post('upload-file', [MovieController::class, 'upload']);
+Route::get('upload-file', [MovieController::class, 'upload']);
